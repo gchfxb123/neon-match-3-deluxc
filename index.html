@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Match 3 Deluxe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="top">
+  <span>Score: <b id="score">0</b></span>
+  <span>Combo: x<b id="combo">1</b></span>
+  <button id="pauseBtn">⏸</button>
+</div>
+
+<canvas id="game" width="480" height="480"></canvas>
+
+<div id="pause" class="hidden">
+  <h1>Paused</h1>
+  <button id="resume">Resume</button>
+  <button id="restart">Restart</button>
+</div>
+
+<script src="core/config.js"></script>
+<script src="core/state.js"></script>
+
+<script src="systems/audio.js"></script>
+
+<script src="core/tile.js"></script>
+<script src="core/board.js"></script>
+<script src="core/matcher.js"></script>
+<script src="core/gravity.js"></script>
+<script src="core/swapper.js"></script>
+<script src="core/gameLoop.js"></script>
+
+<script src="systems/input.js"></script>
+<script src="systems/ui.js"></script>
+<script src="systems/effects.js"></script>
+<script src="systems/save.js"></script>
+<script src="systems/leaderboard.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
