@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #12002b, #000);
+  color: #0ff;
+  font-family: system-ui;
+  text-align: center;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px;
+}
+
+canvas {
+  margin: 20px auto;
+  display: block;
+  background: #0a0a0a;
+  border: 3px solid #0ff;
+}
+
+#pause {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hidden { display: none; }
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
